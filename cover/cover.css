@@ -20,6 +20,7 @@ body {
   display: inline-block;
   background-color: #0B0101;
   font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 20px;
   color: #fff;
   text-align: center;
   text-shadow: 0 1px 3px rgba(0,0,0,.5);
