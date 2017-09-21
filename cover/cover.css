@@ -18,16 +18,19 @@ html,
 body {
   height: 100%;
   display: inline-block;
-  background-color: #0B0101;
-  font-family: 'Yanone Kaffeesatz', sans-serif;
+  background-color:#fff;
+  font-family: 'Heebo', sans-serif;
   font-size: 20px;
-  color: #fff;
+  color: #000000;
   text-align: center;
   text-shadow: 0 1px 3px rgba(0,0,0,.5);
 }
 
 .words{
   vertical-align: middle;
+  margin-top: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 .sequence{
   width: 100%;
@@ -76,8 +79,7 @@ body {
   padding-left: 0;
   font-size: 16px;
   font-weight: bold;
-  color: #fff; /* IE8 proofing */
-  color: rgba(255,255,255,.75);
+  color: #000000; /* IE8 proofing */
   border-bottom: 2px solid transparent;
 }
 .masthead-nav > li > a:hover,
@@ -89,8 +91,8 @@ body {
 .masthead-nav > .active > a,
 .masthead-nav > .active > a:hover,
 .masthead-nav > .active > a:focus {
-  color: #fff;
-  border-bottom-color: #fff;
+  color: #000000;
+  border-bottom-color: #000000;
 }
 
 
