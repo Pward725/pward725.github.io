@@ -20,7 +20,7 @@ body {
   display: inline-block;
   background-color:#fff;
   font-family: 'Heebo', sans-serif;
-  font-size: 20px;
+  font-size: 16px;
   color: #000000;
   text-align: center;
   text-shadow: 0 1px 3px rgba(0,0,0,.5);
@@ -33,7 +33,7 @@ body {
   margin-right: 10%;
 }
 .sequence{
-  width: 100%;
+  width: 95%;
 }
 /*
  * Header
