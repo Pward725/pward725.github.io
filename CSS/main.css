@@ -49,27 +49,37 @@ padding-top: 125px;
  * Header
  */
  .top-bar {
-  display: block;
+   display: block;
    position: fixed;
    z-index: 1000;
    left:0;
    right:0;
+   margin-left:25%;
+   margin-right:25%;
+   margin-top: 10px;
    background: #fff;
-   padding-bottom: 20px;
+   padding-bottom: 10px;
    border-style: solid;
    border-color: #000000;
    border-width: 2px;
    
  }
+ .nav>li>a {
+  position: relative;
+  display: block;
+  padding: 5px 15px;
+}
+
 .masthead-brand {
   margin-bottom: 0px;
+  margin-top:5px;
 }
 
 .masthead-nav > li {
   display: inline-block;
 }
 .masthead-nav > li + li {
-  margin-left: 20px;
+  margin-left: 20px;  
 }
 .masthead-nav > li > a {
   padding-right: 0;
