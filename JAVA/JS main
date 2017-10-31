@@ -1,0 +1,33 @@
+
+$(window).scroll(function(){
+    $(".sidebar").css("opacity", 1 - $(window).scrollTop() / 250);
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

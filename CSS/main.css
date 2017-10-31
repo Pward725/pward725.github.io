@@ -25,9 +25,8 @@ body {
   text-align: center;
 }
 
-
 .container{
-padding-top: 125px;
+padding-top: 30px;
 }
 
 .words{
@@ -50,17 +49,17 @@ padding-top: 125px;
  */
  .top-bar {
    display: block;
-   position: fixed;
-   z-index: 1000;
+   position: relative;
+   z-index: 1;
    left:0;
    right:0;
-   margin-left:25%;
-   margin-right:25%;
+   margin-left:10%;
+   margin-right:10%;
    margin-top: 10px;
-   background: #fff;
+   background: rgb(0, 0, 0);
    padding-bottom: 10px;
    border-style: solid;
-   border-color: #000000;
+   border-color: #555555;
    border-width: 2px;
    
  }
@@ -70,9 +69,48 @@ padding-top: 125px;
   padding: 5px 15px;
 }
 
+
+.sidebar {
+  opacity:0;
+  position:fixed;
+  display: block;
+  top:35px; 
+  left: 35px;
+  height: 550px;
+  width:120px;
+  Background:rgb(0, 0, 0); 
+  border-style: solid;
+  border-color: #555555;
+  border-width: 2px;
+  
+}
+
+.sidebar-nav > li > a {
+  padding-right: 0;
+  padding-left: 0;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fdfbfb; /* IE8 proofing */
+}
+.sidebar-nav > li > a:hover,
+.sidebar-nav > li > a:focus {
+  background-color: transparent;
+  color: #a9a9a9;
+}
+.sidebar-nav > .active > a,
+.sidebar-nav > .active > a:focus {
+  color: #fcfafa;
+}
+
+.sidebar-nav > .active > a:hover
+ {
+  color: #a9a9a9;
+}
 .masthead-brand {
   margin-bottom: 0px;
   margin-top:5px;
+  color: #fff;
+  font-size: 100%;
 }
 
 .masthead-nav > li {
@@ -86,7 +124,7 @@ padding-top: 125px;
   padding-left: 0;
   font-size: 16px;
   font-weight: bold;
-  color: #000000; /* IE8 proofing */
+  color: #fdfbfb; /* IE8 proofing */
   border-bottom: 2px solid transparent;
 }
 .masthead-nav > li > a:hover,
@@ -98,8 +136,8 @@ padding-top: 125px;
 }
 .masthead-nav > .active > a,
 .masthead-nav > .active > a:focus {
-  color: #000000;
-  border-bottom-color: #000000;
+  color: #fcfafa;
+  border-bottom-color: #f8f5f5;
 }
 
 .masthead-nav > .active > a:hover
