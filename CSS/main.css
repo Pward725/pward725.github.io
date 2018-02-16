@@ -62,10 +62,27 @@ padding-bottom: 30px;
 /*
  * Header
  */
+ .progress-container {
+  opacity: 1;
+  width: 100%;
+  height: 12px;
+  background: rgba(0, 0, 0, 0.178);
+  position: fixed;
+}
+
+.progress-bar {
+  opacity: 1;
+  height: 12px;
+  background: #00789c;
+  width: 0%;
+  position: fixed;
+}
+
  .top-bar {
+   opacity: 1;
    display: block;
    position: relative;
-   z-index: 1;
+  z-index: 1;
    left:0;
    right:0;
    background: rgb(0, 0, 0);
