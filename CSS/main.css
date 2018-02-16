@@ -73,7 +73,7 @@ padding-bottom: 30px;
 .progress-bar {
   opacity: 1;
   height: 12px;
-  background: #00789c;
+  background: #000000;
   width: 0%;
   position: fixed;
 }
